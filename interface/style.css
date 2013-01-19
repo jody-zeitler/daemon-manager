@@ -1,0 +1,96 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background-color: #EFEFEF;
+	font-family: Ubuntu, sans-serif;
+	font-size: 1em;
+	margin: 0; padding: 0;
+}
+
+#container{
+	height: 100%;
+	width: 860px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FEFEFE;
+	-moz-box-shadow:    0px 0px 5px 5px #ccc;
+	-webkit-box-shadow: 0px 0px 5px 5px #ccc;
+	box-shadow:         0px 0px 5px 5px #ccc;
+}
+
+#container table{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #DDDDDD;
+}
+
+#container table th{
+	background-color: #E6E6E6;
+	border: 1px solid #D8D8D8;
+}
+
+#container table td{
+	padding: 2px 5px;
+	background-color: #EFEFEF;
+	border: 1px solid #D8D8D8;
+}
+
+#container table tr:hover td{
+	background-color: #E6E6E6;
+}
+
+a{
+	color: #0059FF;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a.disabledLink{
+	color: #AAAAAA;
+	text-decoration: none;
+	cursor: auto;
+}
+
+div#addTask{
+	width: 400px;
+	margin: 5px auto;
+	padding: 5px;
+	text-align: center;
+	background-color: #EFEFEF;
+	border: 1px solid #D8D8D8;
+	-webkit-border-radius: 12px;
+	-moz-border-radius:    12px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+div#addTask:hover{
+	background-color: #E6E6E6;
+}
+
+input{
+	outline: none;
+}
+
+input[type='text']{
+	border: 1px solid #AAA;
+}
+
+input[type='text']:focus{
+	box-shadow: 0 0 5px #AAA;
+}
+
+input[type='text'].required{
+	border: 1px solid #F00;
+}
+
+input[type='text'].required:focus{
+	box-shadow: 0 0 5px #F00;
+}
