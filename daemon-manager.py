@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
-# An HTTP daemon manager written in Python
-# Uses MongoDB for storage
+# An HTTP daemon manager
+# Uses MongoDB via PyMongo for storage
+# Copyright (c) 2013 Jody Zeitler
+# Licensed under the MIT license.
 
 import sys, os, time, shlex
 from datetime import datetime
